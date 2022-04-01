@@ -11,5 +11,5 @@
  ---------------------------------------
  ### Shiva Ram Kothapally
  
-![repo readme screenshot](https://github.com/sagajayakumar/big-data-project/blob/main/bigdataprojrepo.PNG)
+![]()
  
