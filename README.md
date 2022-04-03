@@ -16,8 +16,7 @@
 ---------------------------------------
  ### Jaya Kumar Saga
  
- 
- 
+![Jaya Kumar photo](https://github.com/sagajayakumar/big-data-project/blob/main/members/Jaya/pic.png) 
  ---------------------------------------
  ### Shiva Ram Kothapally
  
