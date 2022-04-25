@@ -1,6 +1,9 @@
 
 package edu.nwmissouri.beam.pagerank;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+
 // beam-playground:
 //   name: MinimalWordCount
 //   description: An example that counts words in Shakespeare's works.
@@ -12,21 +15,28 @@ package edu.nwmissouri.beam.pagerank;
 //     - IO
 //     - Core Transforms
 
-import org.apache.beam.sdk.Pipeline;
-import org.apache.beam.sdk.io.TextIO;
-import org.apache.beam.sdk.options.PipelineOptions;
-import org.apache.beam.sdk.options.PipelineOptionsFactory;
-import org.apache.beam.sdk.transforms.Filter;
-import org.apache.beam.sdk.transforms.Flatten;
-import org.apache.beam.sdk.transforms.GroupByKey;
-import org.apache.beam.sdk.transforms.MapElements;
-import org.apache.beam.sdk.values.KV;
-import org.apache.beam.sdk.values.PCollection;
-import org.apache.beam.sdk.values.PCollectionList;
-import org.apache.beam.sdk.values.TypeDescriptors;
+public class RankedPage implements Serializable {
+        String name;
+        double rank;
+        int count;
 
-public class RankedPage {
-
-        public static void main(String[] args) {
+        public RankedPage(String name, double rank, int count) {
+                this.name = name;
+                this.rank = rank;
+                this.count = count;
         }
+
+        public RankedPage(String name, Double rank) {
+                this.name = name;
+                this.rank = rank;
+        }
+
+        public RankedPage(String name, int rank) {
+                this.name = name;
+                this.rank = rank;
+        }
+
+        public RankedPage(String key, ArrayList<VotingPage> voters) {
+        }
+
 }

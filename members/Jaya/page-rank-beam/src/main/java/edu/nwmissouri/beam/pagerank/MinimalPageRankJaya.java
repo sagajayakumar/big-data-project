@@ -26,7 +26,6 @@ import org.apache.beam.sdk.transforms.MapElements;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.values.PCollectionList;
-import org.apache.beam.sdk.values.TypeDescriptor;
 import org.apache.beam.sdk.values.TypeDescriptors;
 
 public class MinimalPageRankJaya {
@@ -56,7 +55,6 @@ public class MinimalPageRankJaya {
   }
 
   private static PCollection<KV<String, String>> jayaMapJob(Pipeline p, String dataFile, String Path) {
-
     String dp = Path + "/" + dataFile;
     PCollection<String> PCILines = p.apply(TextIO.read().from(dp));
     PCollection<String> PCLines = PCILines.apply(Filter.by((String line) -> !line.isEmpty()));
