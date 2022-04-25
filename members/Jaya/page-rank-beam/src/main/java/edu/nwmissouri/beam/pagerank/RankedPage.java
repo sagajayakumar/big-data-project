@@ -19,6 +19,7 @@ public class RankedPage implements Serializable {
         String name;
         double rank;
         int count;
+        private ArrayList<VotingPage> Voted;
 
         public RankedPage(String name, double rank, int count) {
                 this.name = name;
@@ -26,9 +27,15 @@ public class RankedPage implements Serializable {
                 this.count = count;
         }
 
-        public RankedPage(String name, Double rank) {
+        public RankedPage(String name, Double rank, ArrayList<VotingPage> Voted) {
                 this.name = name;
                 this.rank = rank;
+                this.Voted = Voted;
+        }
+
+        public RankedPage(String name, ArrayList<VotingPage> Voted) {
+                this.name = name;
+                this.Voted = Voted;
         }
 
         public RankedPage(String name, int rank) {
@@ -36,7 +43,41 @@ public class RankedPage implements Serializable {
                 this.rank = rank;
         }
 
-        public RankedPage(String key, ArrayList<VotingPage> voters) {
+        public String getName() {
+                return name;
+        }
+
+        public void setName(String name) {
+                this.name = name;
+        }
+
+        public double getRank() {
+                return rank;
+        }
+
+        public void setRank(double rank) {
+                this.rank = rank;
+        }
+
+        public int getCount() {
+                return count;
+        }
+
+        public void setCount(int count) {
+                this.count = count;
+        }
+
+        public ArrayList<VotingPage> getVoted() {
+                return Voted;
+        }
+
+        public void setVoted(ArrayList<VotingPage> voted) {
+                this.Voted = voted;
+        }
+
+        @Override
+        public String toString() {
+                return "RankedPage [name=" + name + ", rank=" + rank + ", count=" + count + "]";
         }
 
 }
