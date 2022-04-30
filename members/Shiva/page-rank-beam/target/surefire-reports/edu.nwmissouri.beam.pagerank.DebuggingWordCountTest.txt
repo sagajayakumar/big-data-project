@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: edu.nwmissouri.beam.pagerank.DebuggingWordCountTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.281 s <<< FAILURE! - in edu.nwmissouri.beam.pagerank.DebuggingWordCountTest
+edu.nwmissouri.beam.pagerank.DebuggingWordCountTest.testDebuggingWordCount  Time elapsed: 5.281 s  <<< ERROR!
+org.apache.beam.sdk.Pipeline$PipelineExecutionException: java.io.FileNotFoundException: No files matched spec: /Users/S542269/AppData/Local/Temp/junit432939014221118296/junit4703991912830988758.tmp
+	at edu.nwmissouri.beam.pagerank.DebuggingWordCountTest.testDebuggingWordCount(DebuggingWordCountTest.java:54)
+Caused by: java.io.FileNotFoundException: No files matched spec: /Users/S542269/AppData/Local/Temp/junit432939014221118296/junit4703991912830988758.tmp
+

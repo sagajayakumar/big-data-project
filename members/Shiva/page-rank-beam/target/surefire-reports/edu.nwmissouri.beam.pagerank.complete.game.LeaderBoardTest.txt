@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.nwmissouri.beam.pagerank.complete.game.LeaderBoardTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.27 s - in edu.nwmissouri.beam.pagerank.complete.game.LeaderBoardTest

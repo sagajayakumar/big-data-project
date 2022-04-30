@@ -1,0 +1,4 @@
+Apr 25, 2022 1:37:32 PM edu.nwmissouri.beam.pagerank.complete.game.GameStats$CalculateSpammyUsers$1 processElement
+INFO: user Robot-2 spammer score 66 with mean 24.923076923076923
+Apr 25, 2022 1:37:32 PM edu.nwmissouri.beam.pagerank.complete.game.GameStats$CalculateSpammyUsers$1 processElement
+INFO: user Robot-1 spammer score 116 with mean 24.923076923076923

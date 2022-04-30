@@ -1,0 +1,14 @@
+edu\nwmissouri\beam\pagerank\MinimalWordCountTest.class
+edu\nwmissouri\beam\pagerank\subprocess\ExampleEchoPipelineTest$EchoInputDoFn.class
+edu\nwmissouri\beam\pagerank\complete\game\LeaderBoardTest.class
+edu\nwmissouri\beam\pagerank\subprocess\ExampleEchoPipelineTest.class
+edu\nwmissouri\beam\pagerank\complete\game\StatefulTeamScoreTest.class
+edu\nwmissouri\beam\pagerank\subprocess\ExampleEchoPipelineTest$1.class
+edu\nwmissouri\beam\pagerank\complete\game\UserScoreTest.class
+edu\nwmissouri\beam\pagerank\complete\game\StatefulTeamScoreTest$TestUser.class
+edu\nwmissouri\beam\pagerank\complete\game\GameStatsTest.class
+edu\nwmissouri\beam\pagerank\WordCountTest.class
+edu\nwmissouri\beam\pagerank\subprocess\ExampleEchoPipelineTest$2.class
+edu\nwmissouri\beam\pagerank\complete\game\HourlyTeamScoreTest.class
+edu\nwmissouri\beam\pagerank\complete\game\LeaderBoardTest$TestUser.class
+edu\nwmissouri\beam\pagerank\DebuggingWordCountTest.class
