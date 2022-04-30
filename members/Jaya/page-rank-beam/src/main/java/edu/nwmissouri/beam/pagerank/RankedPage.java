@@ -77,7 +77,7 @@ public class RankedPage implements Serializable {
 
         @Override
         public String toString() {
-                return "RankedPage [name=" + name + ", rank=" + rank + ", count=" + count + "]";
+                return String.format("%s %.4f %s", name, rank, count);
         }
 
 }
